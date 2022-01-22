@@ -17,6 +17,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 60px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 header ul {
@@ -30,6 +33,7 @@ header li {
 }
 header a {
     text-decoration: none;
+    
 }
 #page-logo a {
     font-family: 'Kalam', cursive;
