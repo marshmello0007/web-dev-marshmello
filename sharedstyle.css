@@ -1,15 +1,11 @@
+/* main body */
+
 body {
     font-family: 'Outfit', sans-serif;
     margin: 0;
 }
 
-
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+/* header section */
 
 header {
     /* width: 800px; */
@@ -21,6 +17,8 @@ header {
     box-sizing: border-box;
     width: 100%;
 }
+
+/* header section-tag */
 
 header ul {
     display: flex;
@@ -35,6 +33,16 @@ header a {
     text-decoration: none;
     
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section-id-(page-logo) */
+
+
 #page-logo a {
     font-family: 'Kalam', cursive;
     padding: 10px;

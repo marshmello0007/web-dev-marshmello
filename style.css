@@ -1,3 +1,6 @@
+/* main-section-hero */
+
+
 #hero {
     height: 800px;
     background-image: url("images/places/ocean-image.jpg");
@@ -5,7 +8,7 @@
     background-size: cover;
 }
 
-
+/* main-section-hero-(#hero-container) */
 
 #hero-container {
     width: 700px;
@@ -19,6 +22,9 @@
     position: relative;
     top: 374px;
 }
+
+/* main-section-hero-(#hero-container)-tag */
+
 
 #hero-container h1 {
     color: white;
@@ -35,6 +41,8 @@
     font-weight: 300;
     margin-bottom: 38px;
 }
+
+/* main-section-hero-(#hero-container)-anchor tag */
 
 #hero-container a {
     text-decoration: none;
@@ -60,38 +68,7 @@ li a:hover {
     border-radius: 8px;
 }
 
-.destinations img {
-    height: 250px;
-    width: 100%;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 10px;
-    object-fit: cover;
-    
-}
-
-.destinations {
-    margin: 0 20px;
-}
-
-#destinations {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 40px;
-}
-
-.destinations p {
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(124, 123, 123);
-}
-
-.destinations strong {
-    color: rgb(0, 160, 117);
-    font-size: 18px ;
-    
-}
+/* main-section-highlight-tag */
 
 #highlight h2 {
     text-transform: uppercase;
@@ -106,3 +83,48 @@ li a:hover {
     padding: 24px 0;
     background: linear-gradient(0deg, rgb(227, 255, 253), rgb(130, 209, 202)) ;
 }
+
+/* hero-section-highlight-ul-destinations-img */
+
+.destinations img {
+    height: 250px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+/* hero-section-highlight-ul-destinations-tag */
+
+.destinations p {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(124, 123, 123);
+}
+
+.destinations strong {
+    color: rgb(0, 160, 117);
+    font-size: 18px ;
+    
+}
+
+/* hero-section-highlight-ul-id-#destinations */
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+/* hero-section-highlight-ul-destinations-class.destinations*/
+
+.destinations {
+    margin: 0 20px;
+}
+
+
+
+
