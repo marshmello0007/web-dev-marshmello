@@ -57,16 +57,6 @@
     background-color: #FFE400;
 }
 
-li a {
-    color: #FFE162;
-    padding: 10px 13px;
-}
-
-li a:hover {
-    background-color: #FFBD35;
-    color: #191919;
-    border-radius: 8px;
-}
 
 /* main-section-highlight-tag */
 
